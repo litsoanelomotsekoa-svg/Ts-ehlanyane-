@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const nextBtn = document.querySelector(".hero .next");
 
     const slides = [
-      { src: "images/hero.jpeg", caption: "Welcome to Ts’ehlanyane National Park" },
-      { src: "images/hero2.jpg", caption: "Explore the Maloti Mountains" },
-      { src: "images/hero 3.jpg", caption: "Enjoy hiking and wildlife" }
+      { src: "hero.jpeg", caption: "Welcome to Ts’ehlanyane National Park" },
+      { src: "hero2.jpg", caption: "Explore the Maloti Mountains" },
+      { src: "hero 3.jpg", caption: "Enjoy hiking and wildlife" }
     ];
 
     let currentSlide = 0;
@@ -146,4 +146,5 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 });
+
 
